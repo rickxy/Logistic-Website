@@ -1,0 +1,659 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'PT Sans';
+    color: #727272;
+    font-size:14px;
+} 
+ul{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.scroll-top{
+    position: fixed;
+    display:none;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    text-align:center;
+    font-size:18px;
+    border:none;
+    background:#D82A2A;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    }
+    .overlay{
+        position: absolute;
+        right:0;
+        width:100%;
+        height:100%;
+        background:#000000;
+        opacity:.5;
+    }
+#main-header{
+    position: relative;
+    background:#ffffff;
+}
+.pre-header-wrap{
+    min-height:170px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+#main-header .fa {
+    margin-right: 5px;
+    font-size: 18px;
+}
+#main-header .important{
+    font-size: 18px;
+    color:#292929;
+    line-height:1.6em;
+}
+#main-header .col-md-2{
+    color:#727272;
+    font-size:14px;
+}
+#main-header .contact-number {
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 8px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-wrap {
+    position: absolute;
+    left:6%;
+    z-index: 99999;
+    transform: translateY(-50%);
+}
+.navbar_wrapper{
+    background-color: #1f425d;
+    display: table;
+    height: 100%;
+    width:100%;
+    text-align: center;
+}
+.navigation-bar{
+    display: table-cell;
+    vertical-align: middle;
+    height: 70px;
+    border:none;
+}
+.site-navigation{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-left: 2%;
+    text-transform: uppercase;
+    text-align: left;
+}
+.site-navigation ul{
+    margin:0;
+    padding:0;
+}
+.site-navigation ul li{
+    display: inline-block;
+    position: relative;
+    margin-right:20px;
+}
+.site-navigation > ul > li > a {
+    padding:7px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color:#ffffff;
+}
+.site-navigation > ul > li.active > a, .site-navigation > ul > li > a:hover{
+    color:#D82A2A;
+}
+a.menu-button {
+    display: block;
+    font-size: 14px;
+    height: 100%;
+    line-height: 75px;
+    padding: 0 24px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    transition: background-color .2s;
+    background-color: #4ab9cf!important;
+    color: #fff!important;
+    text-decoration: none;
+}
+
+
+.navbar-default{
+    display: none;
+	background:#1F425D;
+	border:none;
+	box-shadow:0px 2px 8px 0px rgba(60, 60,60, 0.1);
+	margin:0;
+	padding:0;
+    height:65px;
+}
+.navbar-default .navbar-header h1{
+    font-size: 35px;
+    margin: 5px 0;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: .8;
+}
+.navbar-default .navbar-header a img{
+    width: 70%;
+    margin-top:10px;
+}
+.navbar-default .navbar-header h1 a span{
+    display: block;
+    font-size: 22px;
+    letter-spacing: 7px;
+    color: #ffffff;
+    border-bottom: 1px solid #094968;
+    border-radius: 20px 0;
+    font-family: 'Timmana', sans-serif;
+}
+.navbar-default .navbar-nav li a{
+    font-size:14px;
+    color:#ffffff;
+	line-height:30px;
+    font-weight:500;
+    font-family: Montserrat;
+}
+.navbar-default .navbar-nav li a:hover{
+	color:#D82A2A;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #D82A2A;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle{
+	border:none;
+	padding-top:16px;
+}
+.navbar-toggle{
+	position:relative;
+	float:right;
+	padding:10px 11px;
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-right:15px;
+	background-color:#fff;
+	border-radius:5px;
+}
+
+
+
+
+
+
+#main-banner{
+    background-repeat: no-repeat; 
+    background-image: url('../images/background2.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    z-index: 20;
+}
+.banner-info{
+    padding-top:15%;
+    z-index: 12;
+}
+#main-banner .banner-info h2.caption{
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+.banner-info h3.description{
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin-bottom:15px;
+}
+.banner-info a.btn{
+    padding: 11px 31px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    font-family: Montserrat;
+    border-radius: 3px;
+    border:none;
+}
+.btn-explore{
+    background-color: #D82A2A;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.btn-contact{
+    background-color: rgb(255, 255, 255);
+    color:#D82A2A; 
+}
+
+#core-values{
+    position: relative;
+    padding:0px;
+}
+
+#core-values h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D82A2A;
+    text-align: center;
+    margin-bottom:10px;
+}
+#core-values h4{
+    font-size: 20px;
+    line-height: 2em;
+    margin:0px;
+    color: #fff;
+}
+#core-values p{
+    font-size: 16px;
+    line-height: 2em;
+    margin-bottom:15px;
+    color: #000000;
+}
+
+
+
+#about-section{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px !important;
+    background-image: url('../images/map-bg.jpg') !important;
+}
+
+
+#about-section h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D82A2A;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom:10px;
+}
+#about-section h4{
+    font-size: 16px;
+    line-height: 2em;
+    margin:0px;
+    color: #000000;
+}
+#about-section p{
+    font-size: 16px;
+    line-height: 2em;
+    margin-bottom:15px;
+    color: #000000;
+}
+#about-section .btn-about{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #D82A2A; 
+    color: #fff!important;
+    border:none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+#about-section .btn-about:hover{
+    background-color: #1A70BB;; 
+}
+
+
+
+#why-us-section{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px !important;
+}
+#why-us-section img{
+    margin-bottom:20px;
+}
+#why-us-section h2{
+    font-size: 25px;
+    font-family: 'Montserrat';
+    text-align:center;
+    font-weight: 500;
+    color: #1A70BB;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom:30px;
+}
+#why-us-section p{
+    font-size: 18px;
+    text-align:center;
+    font-weight: 500;
+    color: #666666;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom:30px;
+}
+#why-us-section h5.why-us-description{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+
+#advert-section{
+    position: relative;
+    background-image: url("../images/background3.jpg") !important;
+    background-position: center top;
+    background-size: cover;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+#advert-section h1{
+    font-size: 35px;
+    text-align:left;
+    font-weight: 500;
+    color: #ffffff;
+}
+#advert-section h2{
+    font-size: 30px;
+    text-align:left;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #ffffff;
+}
+#advert-section h2 span{
+    font-weight: bold;
+     font-size: 35px;
+}
+#advert-section p{
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin-bottom:15px;
+}
+
+
+#services{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+#services h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D82A2A;
+    text-align: center;
+    margin-bottom:40px;
+}
+#services .service-box{
+    margin-bottom: 30px;
+    position: relative;
+}
+#services .service-box a{
+    text-decoration: none;
+}
+#services .service-box .icon-box {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-bottom: 2px solid #b9babc;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 35px 20px 35px 20px;
+    line-height: 1.3;
+    transition: all 100ms ease-out;
+    cursor: pointer;
+}
+#services .service-box .icon-box:hover{
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #1A70BB;
+    text-decoration: none;
+    
+}
+#services .service-box .icon-box .fa {
+    float: right;
+    font-size: 45px;
+    color: #b9babc;
+    padding: 10px 0 10px 10px;
+    transition: all 100ms ease-out;
+}
+#services .service-box .icon-box:hover .fa {
+    color: #1A70BB; 
+}
+#services .service-box .icon-box-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color:#000000;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+#services .service-box .icon-box-subtitle{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+
+
+
+#contacts{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #1F425D;
+}
+#contacts h3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+#contacts img{
+    margin-bottom: 25px;
+}
+#contacts p, #contacts span, #contacts td{
+    font-size: 16px;
+    color:#9bb3c7;
+}
+#contacts  .contact p{
+    border-bottom: 1px dashed #ffffff;
+    padding-bottom:5px;
+    padding-top:5px;
+    margin-bottom:0;
+    font-size: 16px;
+}
+#contacts a{
+    font-size: 16px;
+    color:#9bb3c7;
+    width:100%;
+}
+
+
+footer{
+    background: #000000;
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-bottom:8px;
+    padding-top:8px;
+}
+footer a{
+    color:#ffffff;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+
+
+
+
+
+#inner-page-banner{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat; 
+    background-image: url('../images/banner-image.jpg');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    width: 100%;
+    
+}
+#inner-page-banner .banner-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000000;
+    opacity:.6;
+}
+#inner-page-banner .breadcrumb, #inner-page-banner .breadcrumb a{
+    font-size:25px;
+    font-weight: bold;
+    background:none;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+#inner-page-banner .active {
+    color:#D82A2A;
+}
+
+#service-main, #about-main, #contact-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 100%;
+}
+#about-main p{
+    text-size:15px;
+    line-height:2em;
+}
+#about-main img{
+    width: 100%;
+}
+
+
+
+#service-main h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top:0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #000000;
+    
+}
+#service-main img{
+    margin-bottom:20px;
+    
+}
+#service-main .about p{
+    font-size:14px;
+    text-align: justify;
+    
+}
+
+
+
+
+#contact-main h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D82A2A;
+    text-align: center;
+    margin-bottom:30px;
+}
+#contact-main .btn-submit{
+    background: #D82A2A;
+    color:#ffffff;
+    margin-top:15px;
+    font-size:15px;
+    font-family: 'Montserrat';
+    float: right;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .pre-header-wrap {
+        text-align: center;
+    }
+    #navbar-fixed-top >.navbar-collapse, .container>.navbar-header {
+    text-align: center;
+    }
+    .navbar-default .navbar-header a img {
+    width: 40%;
+    }
+    .navbar-nav {
+       background:#1A70BB;
+     }
+     .header-wrap {
+        left: 0%;
+        width: 97%;
+     }
+     .navbar_wrapper a.menu-button{
+         display: none;
+     }
+     .site-navigation ul li {
+         display: block;
+     }
+
+
+
+     .banner-info {
+    padding-top: 25%;
+     }
+    #main-banner .banner-info h2.caption {
+    font-size: 30px;
+    line-height: 35px;
+     }
+     #core-values h4 {
+    text-align: center;
+     }
+    #about-section img {
+      width: 100% !important;
+     }
+     #about-section h1, #about-section p {
+    text-align: center;
+     }
+     #contacts {
+    text-align: center;
+    }
+    #contacts img, #contacts table {
+    margin: 0 auto;
+}
+}
+
+
+@media (max-width: 410px){
+    #advert-section h1 {
+    font-size: 25px;
+}
+#advert-section h2, #advert-section h2 span {
+    font-size: 25px;
+}
+}
