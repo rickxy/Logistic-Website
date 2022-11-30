@@ -280,6 +280,7 @@
         </div>
      </div>
    </section>
+	     
    <button type="button" class="scroll-top btn" onclick="goToTop();">Go to Top</button>
 
    <footer> 
